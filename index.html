@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR  -->
+    <nav>
+      <a href="#" class="logo">Sanjeet Kumar</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+      </ul>
+      <a href="contact.html" class="contact-btn" id="openContact" onclick="window.location.href='contact.html'">Contact Me</a>
+
+      <div class="menu-toggle">☰</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>
+          Hi, I'm
+          <span class="gradient-text">Sanjeet Kumar</span>
+        </h1>
+
+        <h2 class="hero-subtitle">Full Stack Developer</h2>
+
+        <p>
+          Building responsive web applications with a focus on clean UI and
+          scalable backend systems.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn-primary"> View My Work </a>
+
+          <a
+            href="/images/Sanjeet_Kumar__Resume1.pdf"
+            class="btn-secondary"
+            download
+          >
+            Download Resume
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="images/Sanjeet-img.jpg"
+          alt="Portrait of Sanjeet Kumar - Web Developer"
+        />
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-container">
+        <h2>About Me</h2>
+
+        <p>
+          Hi, I'm <span>Sanjeet Kumar</span>, a B.Sc. 3nd-year student and
+          aspiring MERN Stack Developer. I am currently learning NodeJs, ExpressJs,
+          MongoDB , MySQL , Git, and GitHub while building projects to improve my
+          skills.
+        </p>
+
+        <p>
+          I enjoy creating responsive and user-friendly websites and
+          continuously learning modern web development technologies. My goal is
+          to become a Full Stack Developer and build real-world web
+          applications.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills reveal" id="skills">
+      <div class="container">
+        <!-- Top Quote -->
+        <div class="skills-quote">
+          I build responsive and user-friendly web applications by combining
+          clean design with practical functionality — turning ideas into
+          real-world solutions.
+        </div>
+
+        <!-- My Expertise + Paragraph -->
+        <h2 class="section-title">Technical Expertise</h2>
+        <p class="expertise-desc">
+          Technologies and tools I use to develop efficient, scalable, and
+          user-centric web applications.
+        </p>
+
+        <!-- 6 Boxes Placeholder -->
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-logo">🌐</div>
+            <h3 class="highlight-title">Frontend Engineering</h3>
+            <p>
+              Crafting responsive and interactive user interfaces using HTML5,
+              CSS3 (Flexbox & Grid), and modern JavaScript (ES6+), with a strong
+              focus on usability, accessibility, and clean design across
+              devices.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-logo">⚡</div>
+            <h3 class="highlight-title">Backend Engineering</h3>
+            <p>
+              Developing scalable server-side applications using Node.js and
+              Express.js, with experience in building RESTful APIs, handling
+              routing, and managing application logic efficiently
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-logo">🗄️</div>
+            <h3 class="highlight-title">Database Management</h3>
+            <p>
+              Managing and structuring data using MySQL and MongoDB, with an
+              understanding of data modeling, querying, and maintaining data
+              integrity for both relational and NoSQL databases.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-logo">⚙️</div>
+            <h3 class="highlight-title">Developer Tools & DevOps</h3>
+            <p>
+              Utilizing tools like Git, GitHub, and VS Code to manage code
+              efficiently, track changes, and maintain a smooth development
+              workflow, along with basic command-line operations.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-logo">🎨</div>
+            <h3 class="highlight-title">UI/UX & Product Design</h3>
+            <p>
+              Designing intuitive user experiences using Figma, focusing on
+              wireframing, layout structuring, and creating visually balanced
+              and user-friendly interfaces.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-logo">🚀</div>
+            <h3 class="highlight-title">Web Performance Optimization</h3>
+            <p>
+              Improving web performance through optimized assets, clean and
+              efficient code practices, and a foundational understanding of SEO
+              and loading speed optimization techniques.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project section  -->
+    <section class="projects reveal" id="projects">
+      <h2>My Projects</h2>
+      <p class="subtitle">
+        Some of the projects I’ve built while learning and applying modern web
+        development concepts.
+      </p>
+
+      <div class="project-container">
+        <!-- 1 -->
+        <div class="project-card">
+          <img src="images/food-website.png" />
+          <div class="project-content">
+            <h3>Food Delivery website</h3>
+            <p>
+              Food Delivery Website 🍔🍕🥗 A responsive food delivery website
+              built with HTML, CSS, and JavaScript. It includes a modern UI,
+              add-to-cart functionality, and smooth navigation for a great user
+              experience.
+            </p>
+            <div class="project-buttons">
+              <a
+                href="https://jazzy-pithivier-dafe4f.netlify.app/"
+                target="_blank"
+                class="btn live"
+                >Live</a
+              >
+              <a
+                href="https://github.com/Sanjeet-kumar123/Food-Delivery-website.git"
+                target="_blank"
+                class="btn github"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="project-card">
+          <img src="images/calculator.png" />
+          <div class="project-content">
+            <h3>Calculator</h3>
+            <p>
+              A simple and responsive calculator built using HTML, CSS, and
+              JavaScript. It supports basic arithmetic operations with a clean
+              UI.
+            </p>
+            <div class="project-buttons">
+              <a href="#" class="btn live">Live</a>
+              <a
+                href="https://github.com/Sanjeet-kumar123/Calculator.git"
+                class="btn github"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="project-card">
+          <img src="images/grade-calc.png" />
+          <div class="project-content">
+            <h3>Grade Calculator</h3>
+            <p>
+              A simple Grade Calculator to compute percentage, GPA, and letter
+              grades using HTML, CSS, and JavaScript..
+            </p>
+            <div class="project-buttons">
+              <a href="#" class="btn live">Live</a>
+              <a
+                href="https://github.com/Sanjeet-kumar123/Grade-Calculator.git"
+                class="btn github"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="project-card">
+          <img src="images/random-color-gen.png" />
+          <div class="project-content">
+            <h3>Random Color Generator</h3>
+            <p>
+              A simple Random Color Generator built with HTML, CSS, and
+              JavaScript. Click the button to generate a new random color
+              instantly, and copy the color code with ease! 🎨
+            </p>
+            <div class="project-buttons">
+              <a
+                href="https://rainbow-bavarois-58b221.netlify.app/"
+                class="btn live"
+                >Live</a
+              >
+              <a
+                href="https://github.com/Sanjeet-kumar123/Random-Color-Generator.git"
+                class="btn github"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="project-card">
+          <img src="images/number-guess-game.png" />
+          <div class="project-content">
+            <h3>Number Guessing Game</h3>
+            <p>
+              A simple and interactive Number Guessing Game built using HTML,
+              CSS, and JavaScript. In this game, the computer generates a random
+              number, and the player has to guess it within limited attempts
+            </p>
+            <div class="project-buttons">
+              <a
+                href="https://guessing-number-game001.netlify.app/"
+                class="btn live"
+                >Live</a
+              >
+              <a
+                href="https://github.com/Sanjeet-kumar123/Number-Guessing-Game.git"
+                class="btn github"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="project-card">
+          <img src="images/live code editor.png" />
+          <div class="project-content">
+            <h3>Live Code Editor</h3>
+            <p>
+              A mini Live Code Editor built with HTML, CSS, and JavaScript that
+              provides real-time preview using iframe.
+            </p>
+            <div class="project-buttons">
+              <a
+                href="https://beautiful-hummingbird-3479a0.netlify.app/"
+                class="btn live"
+                >Live</a
+              >
+              <a
+                href="https://github.com/Sanjeet-kumar123/Live-code-editor.git"
+                class="btn github"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- HIDDEN 7 -->
+        <div class="project-card hidden">
+          <img src="images/advice-api-img.png" />
+          <div class="project-content">
+            <h3>RealTime Advice Api</h3>
+            <p>
+              Advice Generator web app with random advice feature and live
+              real-time clock, built using HTML, CSS & JavaScript..
+            </p>
+            <div class="project-buttons">
+              <a
+                href="https://splendid-palmier-d56fef.netlify.app/"
+                class="btn live"
+                >Live</a
+              >
+              <a
+                href="https://github.com/Sanjeet-kumar123/RealTime-Advice-Api.git"
+                class="btn github"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- HIDDEN 8 -->
+        <div class="project-card hidden">
+          <img src="images/joke-gen-api-img.png" />
+          <div class="project-content">
+            <h3>RealTime JOKE API</h3>
+            <p>
+              Random Joke Generator is a JavaScript-based web application that
+              uses a public Joke API to fetch and display random jokes in real
+              time. The project demonstrates API integration, asynchronous
+              JavaScript (fetch & promises), and dynamic DOM manipulation.
+            </p>
+            <div class="project-buttons">
+              <a
+                href="https://silver-platypus-99442b.netlify.app/"
+                class="btn live"
+                >Live</a
+              >
+              <a
+                href="https://github.com/Sanjeet-kumar123/RealTime-JOKE-API.git"
+                class="btn github"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button id="showMoreBtn">Show More</button>
+    </section>
+
+    <!-- Approach Section -->
+    <section class="approach-section reveal">
+      <div class="section-title">
+        <h2>My Approach to Development</h2>
+        <p>
+          A practical and focused approach to building real-world web
+          applications.
+        </p>
+      </div>
+
+      <div class="approach-container">
+        <!-- Left Card -->
+        <div class="card issue-card">
+          <h3>Common Issues</h3>
+
+          <ul>
+            <li>✖ Copy-paste projects without understanding</li>
+            <li>✖ Poor UI and lack of responsiveness</li>
+            <li>✖ No real-world problem solving</li>
+            <li>✖ Overuse of buzzwords without clarity</li>
+            <li>✖ No deployment or live projects</li>
+          </ul>
+        </div>
+
+        <!-- Right Card -->
+        <div class="card approach-card">
+          <h3>My Approach</h3>
+
+          <ul>
+            <li>✔ Build real-world projects with clear purpose</li>
+            <li>✔ Focus on clean UI and responsive design</li>
+            <li>✔ Write simple, readable, efficient code</li>
+            <li>✔ Continuously learn and improve skills</li>
+            <li>✔ Deploy projects and make them accessible</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section reveal" id="faq">
+      <div class="faq-title">
+        <h2>Frequently Asked Questions</h2>
+        <p>
+          Common questions about my projects, skills, and development approach.
+        </p>
+      </div>
+
+      <div class="faq-container">
+        <!-- ITEM -->
+        <div class="faq-item">
+          <button class="faq-question">
+            What technologies do you use?
+            <span class="icon">+</span>
+          </button>
+
+          <div class="faq-answer">
+            <p>
+              I primarily work with HTML, CSS, JavaScript, and React for modern
+              web applications. I also have experience with backend development
+              using Node.js, along with databases like MongoDB and MySQL.
+            </p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Are your projects live?
+            <span class="icon">+</span>
+          </button>
+
+          <div class="faq-answer">
+            <p>
+              Yes, my projects are deployed and accessible online. You can view
+              live demos through the links provided in the projects section.
+            </p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="faq-item">
+          <button class="faq-question">
+            How do you approach building a project?
+            <span class="icon">+</span>
+          </button>
+
+          <div class="faq-answer">
+            <p>
+              I focus on understanding the problem first, then designing a clean
+              UI, and finally developing a responsive and functional
+              application.
+            </p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Are your websites responsive?
+            <span class="icon">+</span>
+          </button>
+
+          <div class="faq-answer">
+            <p>
+              Yes, all my projects are designed to work smoothly across
+              different devices including mobile, tablet, and desktop.
+            </p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Do you have any certifications?
+            <span class="icon">+</span>
+          </button>
+
+          <div class="faq-answer">
+            <p>
+              Yes, I have certifications related to full-stack web development
+              and continuous learning.
+            </p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Where can I see your code?
+            <span class="icon">+</span>
+          </button>
+
+          <div class="faq-answer">
+            <p>
+              You can find my project source code on GitHub. Links are available
+              in each project section.
+            </p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Are you available for freelance or job opportunities?
+            <span class="icon">+</span>
+          </button>
+
+          <div class="faq-answer">
+            <p>
+              Yes, I am open to both freelance work and full-time opportunities.
+            </p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Can you work on real-world projects?
+            <span class="icon">+</span>
+          </button>
+
+          <div class="faq-answer">
+            <p>
+              Yes, I am open to working on real-world projects and continuously
+              improving my skills.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section reveal">
+      <div class="cta-box">
+        <h2>Let's Build Something Together</h2>
+
+        <p>
+          I'm open to freelance projects and job opportunities. Let's connect
+          and create something impactful.
+        </p>
+
+        <a href="contact.html" class="cta-btn"> Contact Me </a>
+      </div>
+    </section>
+
+    <!-- FOOTER  -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Left Side -->
+        <div class="footer-left">
+          <h2>Sanjeet Kumar</h2>
+          <p>Full Stack Web Developer</p>
+        </div>
+
+        <!-- Middle -->
+        <div class="footer-links">
+          <h3>Sections</h3>
+
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <!-- Right -->
+        <div class="footer-links">
+          <h3>Information</h3>
+
+          <a href="#faq">FAQ's</a>
+          <a href="#skills">Skills</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p><span id="year"></span> Sanjeet Kumar. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
